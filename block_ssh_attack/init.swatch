@@ -1,0 +1,5 @@
+# watchfor /sshd\[.*\]: Invalid user (.*) from :(.*):(.*):(.*)/
+watchfor /sshd\[.*\]: Invalid user (.*) from (.*)/
+  echo
+  exec "/usr/local/bin/block_ssh_attack.sh $1 $2 5"
+
