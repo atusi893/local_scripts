@@ -1,8 +1,8 @@
-######################################################
 # sdparmのインストール、HDDスリープを設定
-# (参考：http://blog.goo.ne.jp/thaniwa/e/6ebcdf839e76f3454687cdb1cce01d14)
-# (参考 UUIDに対応：http://kassyjp.ninja-web.net/ras/jessie/spindown.htm)
-######################################################
+(参考：http://blog.goo.ne.jp/thaniwa/e/6ebcdf839e76f3454687cdb1cce01d14)
+(参考 UUIDに対応：http://kassyjp.ninja-web.net/ras/jessie/spindown.htm)
+
+
 # インストール
 yum install sdparm
 
